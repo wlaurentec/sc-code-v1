@@ -1,7 +1,5 @@
 # Operadores
 
-from math import floor
-
 a = 11
 b = 5
 

@@ -1,6 +1,4 @@
 import random
-
-
 def juego_adivinanza():
     # Generar un número aleatorio
     numero_secreto = random.randint(1, 100)

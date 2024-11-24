@@ -1,6 +1,3 @@
-from traceback import print_tb
-
-
 diccionario = {
     "nombre": "Miguel",
     "tecnologias": ["Python", "Java", "C++"],

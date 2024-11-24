@@ -14,14 +14,16 @@ def multiplicar(a, b):
 def dividir(a, b):
     return a / b
 
-suma_lambda = lambda a, b: a + b
+""" suma_lambda = lambda a, b: a + b
 resta_lambda = lambda a, b: a - b
 multiplicar_lambda = lambda a, b: a * b
-dividir_lambda = lambda a, b: a / b
+dividir_lambda = lambda a, b: a / b """
 
 
 def creador_funciones_multiplicar(n):
     return lambda a: a * n
+
+print(creador_funciones_multiplicar(5)(10))
 
 duplicar = creador_funciones_multiplicar(2)
 triplicar = creador_funciones_multiplicar(3)

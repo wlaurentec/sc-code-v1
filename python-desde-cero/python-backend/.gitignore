@@ -1,2 +1,4 @@
 # Ignorar la carpeta del entorno virtual
 backend-api-sc-venv/
+__pycache__/
+*.pyc

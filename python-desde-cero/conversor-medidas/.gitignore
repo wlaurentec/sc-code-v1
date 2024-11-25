@@ -1,1 +1,2 @@
-conversor_venv
+# Ignorar la carpeta del entorno virtual
+conversor_venv/

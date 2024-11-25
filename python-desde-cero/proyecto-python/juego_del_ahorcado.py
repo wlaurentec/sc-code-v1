@@ -15,16 +15,16 @@ def obtener_palabra_secreta() -> str:
     ]
     return random.choice(palabras)
 
-
 def mostrar_progreso(palabra_secreta, letras_adivinadas):
-    adivinido = ""
+    adivinado = ""
     for letra in palabra_secreta:
         if letra in letras_adivinadas:
-            adivinido += letra
+            adivinado += letra
         else:
-            adivinido += "_"
-    return adivinido
+            adivinado += "_"
+    return adivinado
 
+print(mostrar_progreso("python", ["t"]))
 
 def juego_ahorcado():
     palabra_secreta = obtener_palabra_secreta()
